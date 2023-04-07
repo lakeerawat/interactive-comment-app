@@ -1,0 +1,140 @@
+* {
+  font-family: Monaco, sans-serif;
+}
+
+.App {
+  margin-top: 20px;
+  width: 100%;
+}
+.commentDiv{
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.commentContainer {
+  margin-top: 6px;
+  background-color: #d3d3d3e0;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.commentContainer:hover {
+  background-color: #d3d3d3bf;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #e7e7e7;
+}
+
+.first_input {
+  margin: 0;
+}
+
+.commentContainer > span {
+  margin: 0 5px;
+}
+
+.reply {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #4e4e4e;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #569dff;
+  letter-spacing: 0.8px;
+}
+.deletePopUp{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+/* opacity: 0; */
+align-items: center;
+justify-content: center;
+}
+.deleteDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  width:20rem;
+  height: 11rem;
+  padding: 1rem;
+  opacity: 1;
+  border: 2px solid #e7e7e7;
+}
+.paraDiv{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.paraDiv>.para2{
+  font-size: 0.9rem;
+  color: #4e4e4e;
+  font-weight: 500;
+}
+.paraDiv>.para1{
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 600;
+}
+.buttonDiv{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonDiv>button{
+  height: 2.2rem;
+  border-radius: 6px;
+  border: none;
+  width: 45%;
+  color: whitesmoke;
+  background-color: #569dff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.buttonDiv>.button1{
+  background-color: #ff00007a;
+}
+.buttonDiv>.button2{
+  background-color: gray;
+}
+.headerDiv{
+  display: flex;
+  width: 100%;
+  background-color: #569dff;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+font-size: 2rem;
+font-weight: 500;
+color: #ffffff;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
